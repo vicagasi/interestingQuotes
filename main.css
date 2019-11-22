@@ -1,0 +1,47 @@
+html {
+	background-color: grey;
+}
+
+.threeD {
+	font-family: 'Alata', sans-serif;
+	text-shadow: 
+
+	/* 3D Effect */
+	0px 0px 1px rgb(167,167,167),
+  	0px 1px 1px rgb(167,167,167),
+  	0px 2px 1px rgb(167,167,167),
+
+  	1px 1px 1px rgb(167,167,167),
+  	1px 2px 1px rgb(167,167,167),
+  	1px 3px 1px rgb(167,167,167),
+
+  	2px 2px 1px rgb(167,167,167),
+  	2px 3px 1px rgb(167,167,167),
+  	2px 4px 1px rgb(167,167,167);
+}
+
+.mainbox {
+	box-shadow: 
+
+	/* 3D Effect */
+	0px 0px 1px rgb(167,167,167),
+  	0px 1px 1px rgb(167,167,167),
+  	0px 2px 1px rgb(167,167,167),
+
+  	1px 1px 1px rgb(167,167,167),
+  	1px 2px 1px rgb(167,167,167),
+  	1px 3px 1px rgb(167,167,167),
+
+  	2px 2px 1px rgb(167,167,167),
+  	2px 3px 1px rgb(167,167,167),
+  	2px 4px 1px rgb(167,167,167);
+
+}
+
+.alata {
+	font-family: 'Alata', sans-serif;
+}
+
+.playfair {
+	font-family: 'Playfair Display', serif;
+}

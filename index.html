@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interesting Quotes</title>
+
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+
+	<!-- Tachyons -->
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Alata|Playfair+Display&display=swap" rel="stylesheet">
+	
+
+</head>
+<body>
+
+	<!-- Title -->
+	<div class="ma5 white">
+		<div class="f-headline measure center tc threeD mb2">Interesting Quotes</div>
+		<div class="f2 lh-title center tc threeD">From the people of the Internet</div>
+	</div>
+
+	<!-- Quote -->
+	<section class="pa3 ma3 bg-white br2 w-75 center mainbox">
+		<div class=" pa2 ma2">
+			<p id="quote" class="f2 measure">"It's quote time"</p>
+			<p id="name" class="f3 measure i playfair">-Victor Gasior III</p>
+		</div>
+		<div class="pa2 flex justify-between items-end w-100">
+			<a class="link dim br1 ph3 pv2 dib bg-moon-gray pointer f3 ma2 mainbox alata" onclick='randQuote()'>New Quote!</a>
+			<a class="link dim pointer" href="https://github.com/victorgasior3"><img src="githubicon.svg"></a>
+		</div>
+	</section>
+
+<script src="main.js"></script>
+
+</body>
+</html>
