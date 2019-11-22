@@ -1,3 +1,5 @@
+var audio = new Audio('clicksound.mp3');
+
 function randQuote() {
 	var quotes = [
         {
@@ -109,6 +111,30 @@ function randQuote() {
           name: "@dril"
         },
 
+        // Added in 1.0
+
+        {
+          text: "\"imagine getting ok boomer'd by smash mouth.\"",
+          name: "@caro_irl"
+        },
+        {
+          text: "\"I swear I've seen a Pornhub video with the exact same title.\"",
+          name: "-UnEd"
+        },
+        {
+          text: "\"First meme in a while to make me actually laugh. Now I'm going to go call the police, brb.\"",
+          name: "-Anonymous"
+        },
+        {
+          text: "\"Mr. Krabs I didn't know you were into that\"",
+          name: "u/Amustangg"
+        },
+        {
+          text: "\"Soon enough, PS1 graphics will actually look realistic\"",
+          name: "u/free_stuff_please"
+        },
+
+
 
 
       ];
@@ -117,7 +143,8 @@ function randQuote() {
 
     document.getElementById("quote").innerHTML = quote.text;
    	document.getElementById("name").innerHTML = quote.name;
-   	document.getElementById("count").innerHTML = quotes.length;
+
+    audio.play();
 }
 
 
